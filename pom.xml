@@ -176,8 +176,8 @@
 
     <scm>
         <connection>scm:git:https://github.com:physion/windows-keychain-java.git</connection>
-        <developerConnection>scm:git:https://github.com:physion/windows-keychain-java.git</developerConnection>
-        <url>scm:git:git@github.com:physion/windows-keychain-java.git</url>
+        <developerConnection>scm:git:https://github.com/physion/windows-keychain-java.git</developerConnection>
+        <url>scm:git:https://github.com/physion/windows-keychain-java.git</url>
         <tag>windows-keychain-1.0</tag>
     </scm>
 </project>
