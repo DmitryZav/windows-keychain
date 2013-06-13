@@ -99,6 +99,36 @@
                     <keypass>${keystore.key.password}</keypass>
                 </configuration>
             </plugin>
+
+            <!--Cobertura code coverage-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.5.2</version>
+                <configuration>
+                    <instrumentation>
+                        <ignores>
+                        </ignores>
+                        <excludes>
+                            <exclude>us/physion/ovation/couch/**/*Test.class</exclude>
+                            <exclude>us/physion/ovation/couch/**/*IT.class</exclude>
+
+                        </excludes>
+                    </instrumentation>
+                    <check/>
+                    <formats>
+                        <format>html</format>
+                        <format>xml</format>
+                    </formats>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
