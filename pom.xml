@@ -4,7 +4,7 @@
 
     <groupId>us.physion</groupId>
     <artifactId>windows-keychain</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
 
     <properties>
@@ -190,6 +190,6 @@
         <connection>scm:git:https://github.com/physion/windows-keychain.git</connection>
         <developerConnection>scm:git:https://github.com/physion/windows-keychain.git</developerConnection>
         <url>scm:git:https://github.com/physion/windows-keychain.git</url>
-        <tag>windows-keychain-1.1</tag>
+        <tag>windows-keychain-1.0</tag>
     </scm>
 </project>
